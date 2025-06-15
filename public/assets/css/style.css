@@ -1,0 +1,52 @@
+.carousel-inner img{
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.card img{
+  height: 200px;
+  object-fit: cover;
+}
+
+h2 {
+  
+}
+
+footer {
+  width: 100vw;
+  text-align: left;
+  padding: 1vh;
+  padding-bottom: 3vh;
+}
+
+.first{
+  width: 50vw;
+}
+
+.fa-user{
+  font-size: 80px;
+}
+
+.redes{
+  font-size: 30px;
+}
+
+/*=======STYLE CADASTRO DE LUGARES=======*/
+  body{
+            background-color: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .btn-success {
+            background-color: #2e7d32;
+            border-color: #2e7d32;
+        }
+
+        .btn-danger {
+            background-color: #c62828;
+            border-color: #c62828;
+        }
+
+        .card {
+            background-color: #ffffff;
+        }

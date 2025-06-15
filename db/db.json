@@ -1,0 +1,440 @@
+{
+  "lugares": [
+    {
+      "title": "⛱️LENÇÓIS MARANHENSES",
+      "image": "assets/img/imagem-01.png",
+      "description": "O Parque Nacional dos Lençóis Maranhenses é o destino perfeito para aqueles que buscam aventura e contemplação da natureza!!",
+      "info": {
+        "detalhe1": "NOME:Lencois maranhences",
+        "detalhe2": "Aguas cristalinas",
+        "detalhe3": "localizados no estado do Maranhão, na região nordeste do Brasil.",
+        "detalhe4": "estado: MARANHÃO",
+        "detalhe5": "⭐⭐⭐⭐⭐"
+      },
+      "gallery": [
+        "imagem-01.png",
+        "gallery-id1-imagem-02.png",
+        "gallery-id1-imagem-03.png",
+        "gallery-id3-imagem-03.png"
+      ],
+      "destaque": true,
+      "id": "586a"
+    },
+    {
+      "id": "3417",
+      "title": "⛰️CACHOEIRAS DA FUMAÇA",
+      "image": "assets/img/imagem-02.png",
+      "description": "A Cachoeira da Fumaça é uma imponente cachoeira brasileira, com queda livre de cerca de 380 metros",
+      "info": {
+        "detalhe1": "NOME:Cachoeira da Fumaça",
+        "detalhe2": "localizada no município de Palmeiras",
+        "detalhe3": "O nome Fumaça vem do efeito de névoa que se forma devido à altura da queda e à força do vento.",
+        "detalhe4": "⭐⭐⭐⭐⭐",
+        "detalhe5": ""
+      },
+      "gallery": [
+        "imagem-02.png",
+        "gallery-id2-imagem-03.png",
+        "assets/img/gallery-id2-imagem-04.png",
+        ""
+      ],
+      "destaque": true
+    },
+    {
+      "title": "🏃🏻‍♂️LAGOA DA PAMPULHA-MG",
+      "image": "assets/img/imagem-03.png",
+      "description": "A Lagoa da Pampulha foi criada no início dos anos 1940...",
+      "info": {
+        "detalhe1": "NOME:Lagoa da Pampulha",
+        "detalhe2": "localizada no município Belo Horizonte",
+        "detalhe3": "estado: Minas Gerais",
+        "detalhe4": "⭐⭐⭐⭐⭐",
+        "detalhe5": ""
+      },
+      "gallery": [
+        "imagem-03.png",
+        "gallery-id3-imagem-02.png",
+        "gallery-id3-imagem-03.png",
+        ""
+      ],
+      "destaque": true,
+      "id": "0ecf"
+    },
+    {
+      "title": "🏞️CHAPADA DIAMANTINA",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Vale_do_Pati_-_Chapada_Diamantina.JPG",
+      "description": "Montanhas, cachoeiras e grutas impressionantes no coração da Bahia.",
+      "info": {
+        "detalhe1": "NOME: Chapada Diamantina",
+        "detalhe2": "Trilhas, rios e cachoeiras",
+        "detalhe3": "Localizada na Bahia",
+        "detalhe4": "Cidade base: Lençóis",
+        "detalhe5": "⭐⭐⭐⭐⭐"
+      },
+      "gallery": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/f9/Chapada_Diamantina_-_Bahia_-_Brazil_01.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/6/60/Cachoeira_Da_Fumaça.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/1/10/Cachoeira_Do_Ros%C3%A1rio.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/09/Chapada_Diamantina_-_Vale_Do_Pati_-_Brazil_01.jpg"
+      ],
+      "destaque": true,
+      "id": "8e83"
+    },
+    {
+      "id": "dd0f",
+      "title": "🏝️FERNANDO DE NORONHA",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Fernando_de_Noronha-Praia_do_Sancho.jpg/1200px-Fernando_de_Noronha-Praia_do_Sancho.jpg",
+      "description": "Um paraíso ecológico com praias de águas cristalinas e rica vida marinha.",
+      "info": {
+        "detalhe1": "NOME: Fernando de Noronha",
+        "detalhe2": "Patrimônio Mundial da UNESCO",
+        "detalhe3": "Localizado em Pernambuco",
+        "detalhe4": "Ideal para mergulho",
+        "detalhe5": "⭐⭐⭐⭐⭐"
+      },
+      "gallery": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "destaque": true
+    },
+    {
+      "id": "6a8d",
+      "title": "🌉PONTE ESTAIADA",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Ponte_estaiada_Octavio_Frias_-_Sao_Paulo.jpg/1200px-Ponte_estaiada_Octavio_Frias_-_Sao_Paulo.jpg",
+      "description": "Um dos principais cartões-postais de São Paulo, com design moderno.",
+      "info": {
+        "detalhe1": "NOME: Ponte Estaiada",
+        "detalhe2": "Ponto turístico urbano",
+        "detalhe3": "Fica em São Paulo - SP",
+        "detalhe4": "Cruza o Rio Pinheiros",
+        "detalhe5": "⭐⭐⭐⭐⭐"
+      },
+      "gallery": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "destaque": true
+    },
+    {
+      "id": "a60e",
+      "title": "⛲JARDIM BOTÂNICO DO RJ",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/1920x2560_jardim_botanico_rio_de_janeiro_brasil.jpg",
+      "description": "Um dos mais importantes centros de pesquisa botânica do mundo.",
+      "info": {
+        "detalhe1": "NOME: Jardim Botânico",
+        "detalhe2": "Fundado em 1808",
+        "detalhe3": "Localizado no Rio de Janeiro",
+        "detalhe4": "Mais de 6.500 espécies",
+        "detalhe5": "⭐⭐⭐⭐⭐"
+      },
+      "gallery": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "destaque": true
+    },
+    {
+      "title": "🏔️MONTE RORAIMA",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Roraima-Tepui.JPG/1280px-Roraima-Tepui.JPG",
+      "description": "Um dos lugares mais antigos do planeta, com paisagens únicas.",
+      "info": {
+        "detalhe1": "NOME: Monte Roraima",
+        "detalhe2": "Fronteira entre Brasil, Venezuela e Guiana",
+        "detalhe3": "Paisagem pré-histórica",
+        "detalhe4": "Requer expedição guiada",
+        "detalhe5": "⭐⭐⭐⭐⭐"
+      },
+      "gallery": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "destaque": true,
+      "id": "bf0b"
+    },
+    {
+      "id": "f3ea",
+      "title": "🗿OLINDA - PE",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Olinda_Bay%2C_Pernambuco%2C_Brazil.jpg",
+      "description": "Cidade histórica com arquitetura colonial e festas tradicionais como o Carnaval.",
+      "info": {
+        "detalhe1": "NOME: Olinda",
+        "detalhe2": "Patrimônio Histórico da Humanidade",
+        "detalhe3": "Famosa pelos bonecos gigantes",
+        "detalhe4": "Colorida e cultural",
+        "detalhe5": "⭐⭐⭐⭐⭐"
+      },
+      "gallery": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "destaque": false
+    },
+    {
+      "id": "6ce5",
+      "title": "🏖️PRAIA DO FORTE - BA",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Praia_do_Forte-003.jpg/1280px-Praia_do_Forte-003.jpg",
+      "description": "Praia com águas calmas, ideal para famílias e prática de snorkel.",
+      "info": {
+        "detalhe1": "NOME: Praia do Forte",
+        "detalhe2": "Projeto Tamar de proteção das tartarugas",
+        "detalhe3": "Bahia - BA",
+        "detalhe4": "Culinária local incrível",
+        "detalhe5": "⭐⭐⭐⭐"
+      },
+      "gallery": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "destaque": true
+    }
+  ],
+  "contatos": [
+    {
+      "id": "1",
+      "nome": "Leanne Graham",
+      "cidade": "Belo Horizonte",
+      "categoria": "amigos",
+      "email": "Sincere@april.biz",
+      "telefone": "1-770-736-8031",
+      "website": "hildegard.org"
+    },
+    {
+      "id": "b3b9",
+      "nome": "Leanne GrahamFFFFFFFF",
+      "telefone": "1-770-736-8031",
+      "email": "Sincere@april.biz",
+      "cidade": "Belo Horizonte",
+      "categoria": "amigos",
+      "website": "hildegard.org"
+    },
+    {
+      "id": "006e",
+      "nome": "teste",
+      "telefone": "333333333",
+      "email": "kauarodriges17@gmail.com",
+      "cidade": "teste",
+      "categoria": "teste",
+      "website": "teste"
+    },
+    {
+      "id": "7a98",
+      "nome": "Leanne GrahamFFFFFFFF",
+      "telefone": "1-770-736-8031",
+      "email": "Sincere@april.biz",
+      "cidade": "Belo Horizonte",
+      "categoria": "amigos",
+      "website": "hildegard.org"
+    },
+    {
+      "id": "4ce1"
+    },
+    {
+      "id": "c401",
+      "nome": "Leanne Graham",
+      "telefone": "1-770-736-8031",
+      "email": "Sincere@april.biz",
+      "cidade": "Belo Horizonte",
+      "categoria": "amigos",
+      "website": "hildegard.org"
+    },
+    {
+      "id": "40d8",
+      "nome": "Leanne Graham",
+      "telefone": "1-770-736-8031",
+      "email": "Sincere@april.biz",
+      "cidade": "Belo Horizonte",
+      "categoria": "amigos",
+      "website": "hildegard.org"
+    },
+    {
+      "id": "9ae6",
+      "nome": "Leanne Graham",
+      "telefone": "1-770-736-8031",
+      "email": "Sincere@april.biz",
+      "cidade": "Belo Horizonte",
+      "categoria": "amigos",
+      "website": "hildegard.org"
+    },
+    {
+      "id": "852a",
+      "nome": "Leanne Graham",
+      "telefone": "1-770-736-8031",
+      "email": "Sincere@april.biz",
+      "cidade": "Belo Horizonte",
+      "categoria": "amigos",
+      "website": "hildegard.org"
+    },
+    {
+      "id": "110a",
+      "nome": "Leanne Graham",
+      "telefone": "1-770-736-8031",
+      "email": "Sincere@april.biz",
+      "cidade": "Belo Horizonte",
+      "categoria": "amigos",
+      "website": "hildegard.org"
+    },
+    {
+      "id": "6cf1",
+      "nome": "Leanne Graham",
+      "telefone": "1-770-736-8031",
+      "email": "Sincere@april.biz",
+      "cidade": "Belo Horizonte",
+      "categoria": "amigos",
+      "website": "hildegard.org"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador do Sistema",
+      "email": "admin@abc.com"
+    },
+    {
+      "id": "2",
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuario Comum",
+      "email": "user@abc.com"
+    }
+  ],
+  "locais": [
+    {
+      "id": "1",
+      "descricao": "PUC Minas - Coração Eucarístico",
+      "endereco": "Rua Dom José Gaspar, 500",
+      "favorito": true,
+      "cidade": "Belo Horizonte",
+      "latlong": [
+        -43.992911,
+        -19.923564
+      ],
+      "url": "https://www.pucminas.br",
+      "cor": "red"
+    },
+    {
+      "id": "2",
+      "descricao": "PUC Minas - Praça da Liberdade",
+      "endereco": "Av. Brasil, 2023 - Funcionários",
+      "favorito": false,
+      "cidade": "Belo Horizonte",
+      "latlong": [
+        -43.9397233,
+        -19.9332786
+      ],
+      "url": "https://www.pucminas.br/unidade/praca-da-liberdade/Paginas/default.aspx",
+      "cor": "red"
+    },
+    {
+      "id": "3",
+      "descricao": "PUC Minas - Barreiro",
+      "endereco": "Avenida Afonso Vaz de Melo, 1.200 - Barreiro",
+      "favorito": true,
+      "cidade": "Belo Horizonte",
+      "latlong": [
+        -44.025818,
+        -19.976609
+      ],
+      "url": "https://www.pucminas.br/unidade/barreiro/Paginas/default.aspx",
+      "cor": "red"
+    },
+    {
+      "id": "4",
+      "descricao": "PUC Minas - São Gabriel",
+      "endereco": "Rua Walter Ianni, 255 - São Gabriel",
+      "favorito": true,
+      "cidade": "Belo Horizonte",
+      "latlong": [
+        -43.917967,
+        -19.859226
+      ],
+      "url": "https://www.pucminas.br/unidade/sao-gabriel/Paginas/default.aspx",
+      "cor": "red"
+    },
+    {
+      "id": "5",
+      "descricao": "PUC Minas - Contagem",
+      "endereco": "R. Rio Comprido, 4.580",
+      "favorito": false,
+      "cidade": "Contagem",
+      "latlong": [
+        -44.076069,
+        -19.939135
+      ],
+      "url": "https://www.pucminas.br/unidade/contagem/Paginas/default.aspx",
+      "cor": "blue"
+    },
+    {
+      "id": "6",
+      "descricao": "PUC Minas - Betim",
+      "endereco": "R. do Rosário, 1.081 Bairro Angola",
+      "favorito": true,
+      "cidade": "Betim",
+      "latlong": [
+        -44.1984331,
+        -19.9550716
+      ],
+      "url": "https://www.pucminas.br/unidade/betim/Paginas/default.aspx",
+      "cor": "blue"
+    },
+    {
+      "id": "7",
+      "descricao": "PUC Minas - Poços de Caldas",
+      "endereco": "Av. Pe. Cletus Francis Cox, 1.661",
+      "favorito": true,
+      "cidade": "Poços de Caldas",
+      "latlong": [
+        -46.5944649,
+        -21.78904
+      ],
+      "url": "https://www.pucpcaldas.br/",
+      "cor": "green"
+    }
+  ],
+  "cidades": [
+    {
+      "id": "1",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "populacao": 3800000
+    },
+    {
+      "id": "2",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "populacao": 11800000
+    },
+    {
+      "id": "3",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "populacao": 5300000
+    },
+    {
+      "id": "4",
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "populacao": 1200000
+    },
+    {
+      "id": "5",
+      "cidade": "Fortaleza",
+      "estado": "CE",
+      "populacao": 2100000
+    }
+  ]
+}

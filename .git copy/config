@@ -1,0 +1,18 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/ICEI-DIW/trabalho-pratico-semana-12-002002002.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+	vscode-merge-base = origin/main
+	vscode-merge-base = origin/main
+[remote "upstream"]
+	url = https://github.com/ICEI-DIW/icei-diw-20251-sp-pples-m-t1-trabalho-pratico-semana-12-template-diw-20251-semana-12-1.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*

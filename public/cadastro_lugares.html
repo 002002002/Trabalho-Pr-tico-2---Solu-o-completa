@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Lugares</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body class="container py-4">
+    <h1 class="mb-4 text-center">Cadastro de Lugares</h1>
+
+    <!-- Formulário de cadastro/edição -->
+    <form id="form-lugar">
+        <div class="mb-3">
+            <input type="hidden" id="id">
+            <input type="text" id="title" class="form-control" placeholder="Título" required>
+        </div>
+        <div class="mb-3">
+            <input type="text" id="image" class="form-control" placeholder="Caminho da Imagem" required>
+        </div>
+        <div class="mb-3">
+            <textarea id="description" class="form-control" placeholder="Descrição" required></textarea>
+        </div>
+        <div class="mb-3">
+            <input type="text" id="detalhe1" class="form-control" placeholder="Detalhe 1">
+            <input type="text" id="detalhe2" class="form-control mt-2" placeholder="Detalhe 2">
+            <input type="text" id="detalhe3" class="form-control mt-2" placeholder="Detalhe 3">
+            <input type="text" id="detalhe4" class="form-control mt-2" placeholder="Detalhe 4">
+            <input type="text" id="detalhe5" class="form-control mt-2" placeholder="Detalhe 5">
+        </div>
+        <div class="mb-3">
+            <input type="text" id="gallery1" class="form-control" placeholder="Imagem da galeria 1">
+            <input type="text" id="gallery2" class="form-control mt-2" placeholder="Imagem da galeria 2">
+            <input type="text" id="gallery3" class="form-control mt-2" placeholder="Imagem da galeria 3">
+            <input type="text" id="gallery4" class="form-control mt-2" placeholder="Imagem da galeria 4">
+        </div>
+        <div class="form-chek mb-2">
+            <input type="checkbox" class="form-check-input" id="destaque">
+            <label class="form-check-label" for="destaque">Marcar como destaque</label>
+        </div>
+        <button type="submit" class="btn btn-success">Adicionar</button>
+    </form>
+
+    <hr>
+    <h2 class="mb-4 text-center">Lugares Cadastrados</h2>
+    <div id="lugar-container" class="row g-3"></div>
+
+    <script src="./assets/scripts/home.js"></script>
+</body>
+
+</html>
