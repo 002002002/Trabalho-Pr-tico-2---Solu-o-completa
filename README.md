@@ -1,1 +1,1 @@
-# Trabalho-Pr-tico-2---Solu-o-completa
+# Trabalho-Pratico-2-SolucaoCompleta
