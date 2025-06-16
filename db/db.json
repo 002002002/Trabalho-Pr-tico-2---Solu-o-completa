@@ -67,8 +67,8 @@
       ],
       "destaque": true,
       "coordenadas": [
-        -19.8514,
-        -43.975
+        -43.975,
+        -19.8514
       ],
       "id": "0ecf"
     },
@@ -90,10 +90,13 @@
         "https://upload.wikimedia.org/wikipedia/commons/0/09/Chapada_Diamantina_-_Vale_Do_Pati_-_Brazil_01.jpg"
       ],
       "destaque": true,
+      "coordenadas": [
+        -41.3894,
+        -12.5278
+      ],
       "id": "8e83"
     },
     {
-      "id": "dd0f",
       "title": "🏝️FERNANDO DE NORONHA",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Fernando_de_Noronha-Praia_do_Sancho.jpg/1200px-Fernando_de_Noronha-Praia_do_Sancho.jpg",
       "description": "Um paraíso ecológico com praias de águas cristalinas e rica vida marinha.",
@@ -110,10 +113,14 @@
         "",
         ""
       ],
-      "destaque": true
+      "destaque": true,
+      "coordenadas": [
+        -32.41,
+        -3.8547
+      ],
+      "id": "dd0f"
     },
     {
-      "id": "6a8d",
       "title": "🌉PONTE ESTAIADA",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Ponte_estaiada_Octavio_Frias_-_Sao_Paulo.jpg/1200px-Ponte_estaiada_Octavio_Frias_-_Sao_Paulo.jpg",
       "description": "Um dos principais cartões-postais de São Paulo, com design moderno.",
@@ -130,10 +137,14 @@
         "",
         ""
       ],
-      "destaque": true
+      "destaque": true,
+      "coordenadas": [
+        -46.709,
+        -23.6161
+      ],
+      "id": "6a8d"
     },
     {
-      "id": "a60e",
       "title": "⛲JARDIM BOTÂNICO DO RJ",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/1920x2560_jardim_botanico_rio_de_janeiro_brasil.jpg",
       "description": "Um dos mais importantes centros de pesquisa botânica do mundo.",
@@ -150,7 +161,12 @@
         "",
         ""
       ],
-      "destaque": true
+      "destaque": true,
+      "coordenadas": [
+        -43.2242,
+        -22.9681
+      ],
+      "id": "a60e"
     },
     {
       "title": "🏔️MONTE RORAIMA",
@@ -170,10 +186,13 @@
         ""
       ],
       "destaque": true,
+      "coordenadas": [
+        -60.7645,
+        -5.2083
+      ],
       "id": "bf0b"
     },
     {
-      "id": "f3ea",
       "title": "🗿OLINDA - PE",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Olinda_Bay%2C_Pernambuco%2C_Brazil.jpg",
       "description": "Cidade histórica com arquitetura colonial e festas tradicionais como o Carnaval.",
@@ -190,10 +209,14 @@
         "",
         ""
       ],
-      "destaque": false
+      "destaque": true,
+      "coordenadas": [
+        -34.8339,
+        -7.9986
+      ],
+      "id": "f3ea"
     },
     {
-      "id": "6ce5",
       "title": "🏖️PRAIA DO FORTE - BA",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Praia_do_Forte-003.jpg/1280px-Praia_do_Forte-003.jpg",
       "description": "Praia com águas calmas, ideal para famílias e prática de snorkel.",
@@ -210,7 +233,12 @@
         "",
         ""
       ],
-      "destaque": true
+      "destaque": true,
+      "coordenadas": [
+        -38.0006,
+        -12.575
+      ],
+      "id": "6ce5"
     }
   ],
   "contatos": [
