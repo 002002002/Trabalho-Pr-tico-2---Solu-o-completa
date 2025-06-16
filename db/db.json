@@ -18,10 +18,13 @@
         "gallery-id3-imagem-03.png"
       ],
       "destaque": true,
+      "coordenadas": [
+        -43.1167,
+        -2.5333
+      ],
       "id": "586a"
     },
     {
-      "id": "3417",
       "title": "⛰️CACHOEIRAS DA FUMAÇA",
       "image": "assets/img/imagem-02.png",
       "description": "A Cachoeira da Fumaça é uma imponente cachoeira brasileira, com queda livre de cerca de 380 metros",
@@ -38,7 +41,12 @@
         "assets/img/gallery-id2-imagem-04.png",
         ""
       ],
-      "destaque": true
+      "destaque": true,
+      "coordenadas": [
+        -41.4706,
+        -12.5928
+      ],
+      "id": "3417"
     },
     {
       "title": "🏃🏻‍♂️LAGOA DA PAMPULHA-MG",
@@ -58,6 +66,10 @@
         ""
       ],
       "destaque": true,
+      "coordenadas": [
+        -19.8514,
+        -43.975
+      ],
       "id": "0ecf"
     },
     {

@@ -48,6 +48,75 @@ if (document.getElementById("carousellugar")) {
           </div>
         `;
       });
+      // === GRÁFICOS COM CHART.JS ===
+
+const estadoCount = {};
+lugares.forEach(lugar => {
+  const estado = (lugar.info.detalhe4 || "").replace(/estado:\"*/i, "").toUpperCase();
+
+  if (estado) estadoCount[estado] = (estadoCount[estado] || 0) + 1;
+});
+
+const ctxBarra = document.getElementById("graficoBarras");
+if (ctxBarra) {
+  new Chart(ctxBarra, {
+    type: 'bar',
+    data: {
+      labels: Object.keys(estadoCount),
+      datasets: [{
+        label: 'Lugares por estado',
+        data: Object.values(estadoCount),
+        backgroundColor: 'rgba(40, 167, 69, 0.7)'
+      }]
+    },
+    options: { responsive: true }
+  });
+}
+
+// === Gráfico de avaliações (pizza) ===
+
+const avaliacoes = lugares.map(lugar => {
+  const estrelas = (lugar.info.detalhe5 || "").match(/★/g);
+  return estrelas ? estrelas.length : 0;
+});
+
+const ctxPizza = document.getElementById("graficoPizza");
+if (ctxPizza) {
+  new Chart(ctxPizza, {
+    type: 'pie',
+    data: {
+      labels: lugares.map(l => l.title),
+      datasets: [{
+        label: 'Avaliação por lugar',
+        data: avaliacoes,
+        backgroundColor: [
+          '#28a745', '#20c997', '#17a2b8', '#ffc107', '#dc3545', '#6f42c1', '#6610f2', '#fd7e14'
+        ]
+      }]
+    },
+    options: { responsive: true }
+  });
+}
+
+// === MAPA COM MAPBOX ===
+mapboxgl.accessToken = 'pk.eyJ1Ijoia2F1YWRpdyIsImEiOiJjbWJ5YzM3NGkwbTIyMnFwc2E4bzNqajRzIn0.jwuFRPWN62kqiXJdMoYFZA';
+const map = new mapboxgl.Map({
+  container: 'mapa',
+  style: 'mapbox://styles/mapbox/streets-v11',
+  center: [-47.9292, -15.7801],
+  zoom: 3.5
+});
+
+lugares.forEach(lugar => {
+  const coordenadas = lugar.coordenadas;
+  if (coordenadas && coordenadas.length === 2) {
+    new mapboxgl.Marker()
+      .setLngLat(coordenadas)
+      .setPopup(new mapboxgl.Popup().setHTML(`<h6>${lugar.title}</h6><p>${lugar.description}</p>`))
+      .addTo(map);
+  }
+});
+
     })
     .catch(error => {
       //caso ocorra algum erro durante a requisição, exibe no console
@@ -144,8 +213,13 @@ fetch(`http://localhost:3000/lugares/${id}`)
                     document.getElementById('gallery3').value,
                     document.getElementById('gallery4').value
                 ],
-                destaque: document.getElementById('destaque').checked // true ou false
-            };
+                destaque: document.getElementById('destaque').checked, // true ou false
+            
+            coordenadas: [
+                    parseFloat(document.getElementById('longitude').value),
+                    parseFloat(document.getElementById('latitude').value)
+],
+};
 
             const id = document.getElementById('id').value;
 
@@ -194,6 +268,9 @@ fetch(`http://localhost:3000/lugares/${id}`)
             document.getElementById('gallery2').value = lugar.gallery[1];
             document.getElementById('gallery3').value = lugar.gallery[2];
             document.getElementById('gallery4').value = lugar.gallery[3];
+            document.getElementById('latitude').value = lugar.coordenadas[1];
+            document.getElementById('longitude').value = lugar.coordenadas[0];
+
         }
 
         function deletarLugar(id) {
@@ -207,3 +284,6 @@ fetch(`http://localhost:3000/lugares/${id}`)
         }
 
         carregarLugares();
+
+
+
